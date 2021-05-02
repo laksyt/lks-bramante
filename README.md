@@ -18,7 +18,7 @@ The foundation for the proposed infrastructure can be created using the provided
 - Duplicate the `terraform.tfvars.sample` file, removing the `.sample` suffix.
 - Fill out the variables in the `terraform.tfvars` file, following the instructions within:
   - At the very least, the authentication token for an Aiven admin account is required.
-  - Some billing data is also required.
+  - Some billing data may be needed as well.
 - Run the following commands in the repository’s root directory:
   - `terraform init`
   - `terraform apply`
