@@ -1,0 +1,20 @@
+# Authentication token for Aiven admin account
+aiven_api_token = ""
+
+# Name of Aiven project to create/update
+#
+# A suffix with two random bytes will be auto-appended, e.g. ‘-0a31’. Also, 
+# this name will serve as a basis for resource names.
+aiven_project_name = "sample-project-name"
+
+# For billing, either provide a card ID string (all 16 or last 4 digits)...
+aiven_billing_card_id = null
+# ...or specify the name of the project to copy the billing data from
+aiven_billing_project_name = null
+
+# Default cloud and region to put the resources into
+#
+# The cloud name should follow the Aiven naming policy, while the region ID is 
+# for internal resource naming.
+cloud_name = "google-europe-north1"
+region_id = "euno1" 

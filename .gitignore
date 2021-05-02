@@ -1,3 +1,5 @@
+terraform.tfvars
+
 # Created by https://www.toptal.com/developers/gitignore/api/vim,macos,linux,python,windows,virtualenv,pycharm+all,intellij+all,visualstudiocode,terraform
 # Edit at https://www.toptal.com/developers/gitignore?templates=vim,macos,linux,python,windows,virtualenv,pycharm+all,intellij+all,visualstudiocode,terraform
 
