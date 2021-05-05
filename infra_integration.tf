@@ -35,6 +35,6 @@ resource "aiven_kafka_connector" "kfx_dbsink" {
     "topics"          = aiven_kafka_topic.kft_analytics.topic_name
     "connector.class" = "io.aiven.connect.jdbc.JdbcSinkConnector"
     "name"            = "${var.aiven_project_name}-kfx-${var.region_id}-dbsink-${random_id.suffix["kfx_dbsink"].hex}"
-    "connection_url"  = aiven_pg.pgs_analytics.service_uri
+    "connection.url"  = "jdbc:${aiven_pg.pgs_analytics.service_uri}"
   }
 }
